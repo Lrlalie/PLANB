@@ -4,11 +4,7 @@ import javax.persistence.*;
 
 /**
  * 
- * @author Laurence REYNIER
- * I do not know yet on which JVM we will run this application,
- * that's why I use the interface SERIALIZABLE which allows the 
- * use to exchange objects on different JVM,
- * to facilitate the persistence of the data and to save a configuration, ... 
+ * @author Laurence REYNIER * 
  * @Entity : mandatory annotation in JPA (Java Persistance Api : java specifications to 
  * persist data, hibernate (for example) is an JPA implementation
  *
@@ -16,9 +12,8 @@ import javax.persistence.*;
 
 /** 
  * @author Laurence REYNIER
- * My Entities will be database and Tables will be table : their names 
- * will be prefixed with a "t".
- * This Entity Person, is the customers' database
+ * My Entities will be tables of my database
+ * I prefixed name's table with a "t".
  * I use french name for columns' name because this application is made for a french society
  * names in Entity are in English
  */
