@@ -13,7 +13,16 @@
 * establish quotations and bills
 ---
 ## technologies
-*  Eclipse with java language (back) / framework : SPRING BOOT, Hibernate (implementation of JPA specifications) / I added Glassfish : because to register hibernate in the pom.xml I obtained error message to explain that Glassfish should be install (but I don't want to use it at application server, I'm going to use TOMCAT which is included with the installation of SPRING BOOT and DEVTOOLS / git and github to handle versions and commits / ANGULAR : I want to manage front with this technologie.
+* Eclipse with java language (back)
+* framework : SPRING BOOT, Hibernate (implementation of JPA specifications)
+* I added Glassfish : because to register hibernate in the pom.xml I obtained error message zxplaining that Glassfish is required  (but I am going to use TOMCAT as application server (it is included with the installation of SPRING BOOT and DEVTOOLS)
+* maven which is included in SPRING BOOT : as a packaga manager
+* git and github to handle versions and commits 
+
+### Complementary technologies (that are not yet included at the 2019-03-30)
+* ANGULAR : I want to manage front with this technologie.
+* CORDOVA : library to manage the responsive aspect
+
 ---
 ## Contributors
 * Laurence REYNIER
