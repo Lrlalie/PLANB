@@ -15,7 +15,7 @@
 ## technologies
 * Eclipse with java language (back)
 * framework : SPRING BOOT, Hibernate (implementation of JPA specifications)
-* I added Glassfish : because to register hibernate in the pom.xml I obtained error message zxplaining that Glassfish is required  (but I am going to use TOMCAT as application server (it is included with the installation of SPRING BOOT and DEVTOOLS)
+* I added Glassfish : because to register hibernate in the pom.xml I obtained error message explaining that Glassfish is required  * I decided to use TOMCAT as application server (it is included with the installation of SPRING BOOT and DEVTOOLS)
 * maven which is included in SPRING BOOT : as a packaga manager
 * git and github to handle versions and commits 
 
